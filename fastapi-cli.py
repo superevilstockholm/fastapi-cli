@@ -149,6 +149,7 @@ class Router():
     (project_path / ".gitignore").write_text("""__pycache__/
 .env/
 logs/""")
+    print(f"✅ Successfully created project {name}")
 
 if __name__ == '__main__':
     app()
